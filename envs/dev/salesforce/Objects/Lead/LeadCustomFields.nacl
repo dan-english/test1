@@ -95,12 +95,11 @@ type salesforce.Lead {
     queryable = true
   }
 
-  salesforce.Number ActiveDays__c {
-    apiName = "Lead.ActiveDays__c"
-    label = "Number of Active Days"
-    precision = 3
+
+  salesforce.Number mybignumber__c {
+    apiName = "Lead.mybignumber__c"
+    label = "My Big Number"
     scale = 0
-
-
+    precision = 1
   }
 }
