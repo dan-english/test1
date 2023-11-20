@@ -1,0 +1,9 @@
+salesforce.Queue Warm_Leads {
+  fullName = "Warm_Leads"
+  doesSendEmailToMembers = false
+  name = "Warm Leads"
+  queueSobject = {
+    sobjectType = "Lead"
+  }
+  _alias = "Warm_Leads"
+}

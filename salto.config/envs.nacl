@@ -3,6 +3,13 @@ envs {
     {
       name = "dev"
       accountToServiceName = {
+        salesforce = "salesforce"
+      }
+    },
+    {
+      name = "prod"
+      accountToServiceName = {
+        salesforce = "salesforce"
       }
     },
   ]
